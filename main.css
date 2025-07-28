@@ -452,6 +452,21 @@ footer p {
     opacity: 0.8;
 }
 
+/* リンクスタイル */
+a {
+    color: #1565c0;         /* 濃い青色で視認性アップ */
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+a:visited {
+    color: #512da8;         /* 訪問済みは紫系で区別 */
+}
+a:hover, a:focus {
+    color: #d84315;         /* ホバー時はオレンジ系で強調 */
+    background-color: #fff3e0;
+}
+
 /* レスポンシブデザイン */
 @media (max-width: 768px) {
     main {
